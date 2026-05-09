@@ -23,7 +23,7 @@ changetext.addEventListener('click',function(){
         {
             index=0;
         }
-    },3000)
+    },1000)
 })
 stop_btn_text.addEventListener('click',function(){
     text.style.color="black";
@@ -39,7 +39,7 @@ start_btn_grow.addEventListener('click',function(){
         console.log(s);
      box.style.width=s;
       box.style.height=s;
-    },2000)
+    },1000)
 })
 stop_btn_grow.addEventListener('click',function(){
     box.style.width="100px";
