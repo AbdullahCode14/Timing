@@ -11,7 +11,7 @@ let scale=100;
 change.addEventListener('click',function(){
     setTimeout(function(){
         document.body.style.background="red";
-    },3000)
+    },1000)
 })
 let colors=["red","green","yellow","orange","cyan"]
 let index=0;
